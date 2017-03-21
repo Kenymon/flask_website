@@ -14,6 +14,10 @@ def hello_world():
 def page_not_found(error):
     return render_template( 'error_404.html')
 
+@app.route('/second_page')
+def second_page():
+	return render_template( 'test_second_page/second_page.html')
+
 
 
 
