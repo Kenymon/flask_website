@@ -1,3 +1,6 @@
+
+
+
 body {
     background-color: lightblue;
     
@@ -7,7 +10,34 @@ h1{
     text-align: left
 }
 
+#top_directory{
+    display:inline-block;
+    margin:0em 0em 0em 0em;
+}
 
+#top_directory li{
+    display: inline-block;
+    float:left;
+    margin: 0.1em 0.75em 0.1em 0.75em;
+    padding: 0.1em 0em 0.1em 0em;
+    list-style-type: none;
+    font-size:1.20em;
+    color:gold;
+}
+
+#header hr{
+}
+
+#padding {
+    margin-bottom:2em
+}
+
+#footer{
+    position:absolute;
+    bottom:0;
+    width:98%;
+    text-align:right;
+}
 
 
 

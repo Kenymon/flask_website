@@ -18,6 +18,12 @@ def page_not_found(error):
 def second_page():
 	return render_template( 'test_second_page/second_page.html')
 
+@app.route('/About')
+def About_page():
+	return render_template( 'about.html')
+
+
+
 
 
 
